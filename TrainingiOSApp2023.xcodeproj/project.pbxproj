@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		108B977F295A81D80063289F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108B977E295A81D80063289F /* AppDelegate.swift */; };
-		108B9783295A81D80063289F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108B9782295A81D80063289F /* ViewController.swift */; };
 		108B9788295A81D90063289F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 108B9787295A81D90063289F /* Assets.xcassets */; };
 		108B978B295A81D90063289F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 108B9789295A81D90063289F /* LaunchScreen.storyboard */; };
 		108B9796295A81DA0063289F /* TrainingiOSApp2023Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108B9795295A81DA0063289F /* TrainingiOSApp2023Tests.swift */; };
 		108B97A0295A81DA0063289F /* TrainingiOSApp2023UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108B979F295A81DA0063289F /* TrainingiOSApp2023UITests.swift */; };
 		108B97A2295A81DA0063289F /* TrainingiOSApp2023UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108B97A1295A81DA0063289F /* TrainingiOSApp2023UITestsLaunchTests.swift */; };
+		10A4863F298E119800AC25D1 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A4863D298E119800AC25D1 /* SearchResultViewController.swift */; };
+		10A48640298E119800AC25D1 /* SearchResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10A4863E298E119800AC25D1 /* SearchResultViewController.xib */; };
 		56A26E20863C39A75CA4ABB2 /* Pods_TrainingiOSApp2023_TrainingiOSApp2023UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 737DABF0496225C7BF09255F /* Pods_TrainingiOSApp2023_TrainingiOSApp2023UITests.framework */; };
 		876942E137373DE08650C116 /* Pods_TrainingiOSApp2023Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B309A14F5B36F54232AEFD /* Pods_TrainingiOSApp2023Tests.framework */; };
 		8A937303F4B2B2C596AEA4A9 /* Pods_TrainingiOSApp2023.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DD2352A8A9AEB15D85ED76 /* Pods_TrainingiOSApp2023.framework */; };
@@ -39,7 +40,6 @@
 /* Begin PBXFileReference section */
 		108B977B295A81D80063289F /* TrainingiOSApp2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainingiOSApp2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		108B977E295A81D80063289F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		108B9782295A81D80063289F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		108B9787295A81D90063289F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		108B978A295A81D90063289F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		108B978C295A81D90063289F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,6 +48,8 @@
 		108B979B295A81DA0063289F /* TrainingiOSApp2023UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrainingiOSApp2023UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		108B979F295A81DA0063289F /* TrainingiOSApp2023UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingiOSApp2023UITests.swift; sourceTree = "<group>"; };
 		108B97A1295A81DA0063289F /* TrainingiOSApp2023UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingiOSApp2023UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		10A4863D298E119800AC25D1 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		10A4863E298E119800AC25D1 /* SearchResultViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultViewController.xib; sourceTree = "<group>"; };
 		293A7430527DB9B19932A84F /* Pods-TrainingiOSApp2023-TrainingiOSApp2023UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainingiOSApp2023-TrainingiOSApp2023UITests.debug.xcconfig"; path = "Target Support Files/Pods-TrainingiOSApp2023-TrainingiOSApp2023UITests/Pods-TrainingiOSApp2023-TrainingiOSApp2023UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D54F8D77BD856EA55E1D28B /* Pods-TrainingiOSApp2023.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainingiOSApp2023.release.xcconfig"; path = "Target Support Files/Pods-TrainingiOSApp2023/Pods-TrainingiOSApp2023.release.xcconfig"; sourceTree = "<group>"; };
 		31B369D3FF719FA7FD6269A8 /* Pods-TrainingiOSApp2023.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainingiOSApp2023.debug.xcconfig"; path = "Target Support Files/Pods-TrainingiOSApp2023/Pods-TrainingiOSApp2023.debug.xcconfig"; sourceTree = "<group>"; };
@@ -113,7 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				108B977E295A81D80063289F /* AppDelegate.swift */,
-				108B9782295A81D80063289F /* ViewController.swift */,
+				10A48641298E11C800AC25D1 /* ViewController */,
 				108B9787295A81D90063289F /* Assets.xcassets */,
 				108B9789295A81D90063289F /* LaunchScreen.storyboard */,
 				108B978C295A81D90063289F /* Info.plist */,
@@ -138,6 +140,15 @@
 			path = TrainingiOSApp2023UITests;
 			sourceTree = "<group>";
 		};
+		10A48641298E11C800AC25D1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				10A4863D298E119800AC25D1 /* SearchResultViewController.swift */,
+				10A4863E298E119800AC25D1 /* SearchResultViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		759DF48D2ABD1D39B18E6760 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,7 +169,6 @@
 				B04108CCA6B9FBE0215B5EC1 /* Pods-TrainingiOSApp2023Tests.debug.xcconfig */,
 				7B1DABCCE8E7444F2C0D86A6 /* Pods-TrainingiOSApp2023Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -269,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10A48640298E119800AC25D1 /* SearchResultViewController.xib in Resources */,
 				108B978B295A81D90063289F /* LaunchScreen.storyboard in Resources */,
 				108B9788295A81D90063289F /* Assets.xcassets in Resources */,
 			);
@@ -364,7 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				108B9783295A81D80063289F /* ViewController.swift in Sources */,
+				10A4863F298E119800AC25D1 /* SearchResultViewController.swift in Sources */,
 				108B977F295A81D80063289F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
