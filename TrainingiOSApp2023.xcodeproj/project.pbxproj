@@ -15,6 +15,14 @@
 		108B97A2295A81DA0063289F /* TrainingiOSApp2023UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108B97A1295A81DA0063289F /* TrainingiOSApp2023UITestsLaunchTests.swift */; };
 		10A4863F298E119800AC25D1 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A4863D298E119800AC25D1 /* SearchResultViewController.swift */; };
 		10A48640298E119800AC25D1 /* SearchResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10A4863E298E119800AC25D1 /* SearchResultViewController.xib */; };
+		10A48645298E16E800AC25D1 /* GourmetSearchFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A48644298E16E800AC25D1 /* GourmetSearchFetcher.swift */; };
+		10A48647298F87D200AC25D1 /* GourmetSearchShopEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A48646298F87D200AC25D1 /* GourmetSearchShopEntity.swift */; };
+		10A4864C298F8F5C00AC25D1 /* AreaEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A4864B298F8F5C00AC25D1 /* AreaEntity.swift */; };
+		10A4864E298F90D800AC25D1 /* GenreEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A4864D298F90D800AC25D1 /* GenreEntity.swift */; };
+		10A48650298F919100AC25D1 /* BudgetEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A4864F298F919100AC25D1 /* BudgetEntity.swift */; };
+		10A48652298F92A000AC25D1 /* PhotoEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A48651298F92A000AC25D1 /* PhotoEntity.swift */; };
+		10A48654298F957D00AC25D1 /* CouponUrlEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A48653298F957D00AC25D1 /* CouponUrlEntity.swift */; };
+		10A4865729A260DA00AC25D1 /* URL+Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A4865629A260DA00AC25D1 /* URL+Add.swift */; };
 		56A26E20863C39A75CA4ABB2 /* Pods_TrainingiOSApp2023_TrainingiOSApp2023UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 737DABF0496225C7BF09255F /* Pods_TrainingiOSApp2023_TrainingiOSApp2023UITests.framework */; };
 		876942E137373DE08650C116 /* Pods_TrainingiOSApp2023Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B309A14F5B36F54232AEFD /* Pods_TrainingiOSApp2023Tests.framework */; };
 		8A937303F4B2B2C596AEA4A9 /* Pods_TrainingiOSApp2023.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DD2352A8A9AEB15D85ED76 /* Pods_TrainingiOSApp2023.framework */; };
@@ -50,6 +58,14 @@
 		108B97A1295A81DA0063289F /* TrainingiOSApp2023UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingiOSApp2023UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		10A4863D298E119800AC25D1 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
 		10A4863E298E119800AC25D1 /* SearchResultViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultViewController.xib; sourceTree = "<group>"; };
+		10A48644298E16E800AC25D1 /* GourmetSearchFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GourmetSearchFetcher.swift; sourceTree = "<group>"; };
+		10A48646298F87D200AC25D1 /* GourmetSearchShopEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GourmetSearchShopEntity.swift; sourceTree = "<group>"; };
+		10A4864B298F8F5C00AC25D1 /* AreaEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaEntity.swift; sourceTree = "<group>"; };
+		10A4864D298F90D800AC25D1 /* GenreEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreEntity.swift; sourceTree = "<group>"; };
+		10A4864F298F919100AC25D1 /* BudgetEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetEntity.swift; sourceTree = "<group>"; };
+		10A48651298F92A000AC25D1 /* PhotoEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEntity.swift; sourceTree = "<group>"; };
+		10A48653298F957D00AC25D1 /* CouponUrlEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponUrlEntity.swift; sourceTree = "<group>"; };
+		10A4865629A260DA00AC25D1 /* URL+Add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Add.swift"; sourceTree = "<group>"; };
 		293A7430527DB9B19932A84F /* Pods-TrainingiOSApp2023-TrainingiOSApp2023UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainingiOSApp2023-TrainingiOSApp2023UITests.debug.xcconfig"; path = "Target Support Files/Pods-TrainingiOSApp2023-TrainingiOSApp2023UITests/Pods-TrainingiOSApp2023-TrainingiOSApp2023UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D54F8D77BD856EA55E1D28B /* Pods-TrainingiOSApp2023.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainingiOSApp2023.release.xcconfig"; path = "Target Support Files/Pods-TrainingiOSApp2023/Pods-TrainingiOSApp2023.release.xcconfig"; sourceTree = "<group>"; };
 		31B369D3FF719FA7FD6269A8 /* Pods-TrainingiOSApp2023.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainingiOSApp2023.debug.xcconfig"; path = "Target Support Files/Pods-TrainingiOSApp2023/Pods-TrainingiOSApp2023.debug.xcconfig"; sourceTree = "<group>"; };
@@ -116,6 +132,9 @@
 			children = (
 				108B977E295A81D80063289F /* AppDelegate.swift */,
 				10A48641298E11C800AC25D1 /* ViewController */,
+				10A48643298E16C200AC25D1 /* Model */,
+				10A4864A298F8F3600AC25D1 /* Entity */,
+				10A4865529A260B900AC25D1 /* Extension */,
 				108B9787295A81D90063289F /* Assets.xcassets */,
 				108B9789295A81D90063289F /* LaunchScreen.storyboard */,
 				108B978C295A81D90063289F /* Info.plist */,
@@ -147,6 +166,35 @@
 				10A4863E298E119800AC25D1 /* SearchResultViewController.xib */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		10A48643298E16C200AC25D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				10A48644298E16E800AC25D1 /* GourmetSearchFetcher.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		10A4864A298F8F3600AC25D1 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				10A48646298F87D200AC25D1 /* GourmetSearchShopEntity.swift */,
+				10A4864B298F8F5C00AC25D1 /* AreaEntity.swift */,
+				10A4864D298F90D800AC25D1 /* GenreEntity.swift */,
+				10A4864F298F919100AC25D1 /* BudgetEntity.swift */,
+				10A48651298F92A000AC25D1 /* PhotoEntity.swift */,
+				10A48653298F957D00AC25D1 /* CouponUrlEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		10A4865529A260B900AC25D1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				10A4865629A260DA00AC25D1 /* URL+Add.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		759DF48D2ABD1D39B18E6760 /* Frameworks */ = {
@@ -375,8 +423,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10A48654298F957D00AC25D1 /* CouponUrlEntity.swift in Sources */,
 				10A4863F298E119800AC25D1 /* SearchResultViewController.swift in Sources */,
+				10A4864E298F90D800AC25D1 /* GenreEntity.swift in Sources */,
 				108B977F295A81D80063289F /* AppDelegate.swift in Sources */,
+				10A4864C298F8F5C00AC25D1 /* AreaEntity.swift in Sources */,
+				10A4865729A260DA00AC25D1 /* URL+Add.swift in Sources */,
+				10A48650298F919100AC25D1 /* BudgetEntity.swift in Sources */,
+				10A48647298F87D200AC25D1 /* GourmetSearchShopEntity.swift in Sources */,
+				10A48645298E16E800AC25D1 /* GourmetSearchFetcher.swift in Sources */,
+				10A48652298F92A000AC25D1 /* PhotoEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
