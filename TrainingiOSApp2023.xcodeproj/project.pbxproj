@@ -23,6 +23,8 @@
 		10A48652298F92A000AC25D1 /* PhotoEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A48651298F92A000AC25D1 /* PhotoEntity.swift */; };
 		10A48654298F957D00AC25D1 /* CouponUrlEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A48653298F957D00AC25D1 /* CouponUrlEntity.swift */; };
 		10A4865729A260DA00AC25D1 /* URL+Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A4865629A260DA00AC25D1 /* URL+Add.swift */; };
+		10A4865A29A2927200AC25D1 /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A4865829A2927200AC25D1 /* SearchResultCell.swift */; };
+		10A4865B29A2927200AC25D1 /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10A4865929A2927200AC25D1 /* SearchResultCell.xib */; };
 		56A26E20863C39A75CA4ABB2 /* Pods_TrainingiOSApp2023_TrainingiOSApp2023UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 737DABF0496225C7BF09255F /* Pods_TrainingiOSApp2023_TrainingiOSApp2023UITests.framework */; };
 		876942E137373DE08650C116 /* Pods_TrainingiOSApp2023Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B309A14F5B36F54232AEFD /* Pods_TrainingiOSApp2023Tests.framework */; };
 		8A937303F4B2B2C596AEA4A9 /* Pods_TrainingiOSApp2023.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DD2352A8A9AEB15D85ED76 /* Pods_TrainingiOSApp2023.framework */; };
@@ -66,6 +68,8 @@
 		10A48651298F92A000AC25D1 /* PhotoEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEntity.swift; sourceTree = "<group>"; };
 		10A48653298F957D00AC25D1 /* CouponUrlEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponUrlEntity.swift; sourceTree = "<group>"; };
 		10A4865629A260DA00AC25D1 /* URL+Add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Add.swift"; sourceTree = "<group>"; };
+		10A4865829A2927200AC25D1 /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
+		10A4865929A2927200AC25D1 /* SearchResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultCell.xib; sourceTree = "<group>"; };
 		293A7430527DB9B19932A84F /* Pods-TrainingiOSApp2023-TrainingiOSApp2023UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainingiOSApp2023-TrainingiOSApp2023UITests.debug.xcconfig"; path = "Target Support Files/Pods-TrainingiOSApp2023-TrainingiOSApp2023UITests/Pods-TrainingiOSApp2023-TrainingiOSApp2023UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D54F8D77BD856EA55E1D28B /* Pods-TrainingiOSApp2023.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainingiOSApp2023.release.xcconfig"; path = "Target Support Files/Pods-TrainingiOSApp2023/Pods-TrainingiOSApp2023.release.xcconfig"; sourceTree = "<group>"; };
 		31B369D3FF719FA7FD6269A8 /* Pods-TrainingiOSApp2023.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainingiOSApp2023.debug.xcconfig"; path = "Target Support Files/Pods-TrainingiOSApp2023/Pods-TrainingiOSApp2023.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +136,7 @@
 			children = (
 				108B977E295A81D80063289F /* AppDelegate.swift */,
 				10A48641298E11C800AC25D1 /* ViewController */,
+				10A48642298E11E000AC25D1 /* View */,
 				10A48643298E16C200AC25D1 /* Model */,
 				10A4864A298F8F3600AC25D1 /* Entity */,
 				10A4865529A260B900AC25D1 /* Extension */,
@@ -166,6 +171,15 @@
 				10A4863E298E119800AC25D1 /* SearchResultViewController.xib */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		10A48642298E11E000AC25D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				10A4865829A2927200AC25D1 /* SearchResultCell.swift */,
+				10A4865929A2927200AC25D1 /* SearchResultCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		10A48643298E16C200AC25D1 /* Model */ = {
@@ -329,6 +343,7 @@
 			files = (
 				10A48640298E119800AC25D1 /* SearchResultViewController.xib in Resources */,
 				108B978B295A81D90063289F /* LaunchScreen.storyboard in Resources */,
+				10A4865B29A2927200AC25D1 /* SearchResultCell.xib in Resources */,
 				108B9788295A81D90063289F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +447,7 @@
 				10A48650298F919100AC25D1 /* BudgetEntity.swift in Sources */,
 				10A48647298F87D200AC25D1 /* GourmetSearchShopEntity.swift in Sources */,
 				10A48645298E16E800AC25D1 /* GourmetSearchFetcher.swift in Sources */,
+				10A4865A29A2927200AC25D1 /* SearchResultCell.swift in Sources */,
 				10A48652298F92A000AC25D1 /* PhotoEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
